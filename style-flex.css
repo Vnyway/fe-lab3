@@ -11,6 +11,15 @@ body {
   font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: white;
+}
+
 #top {
   display: flex;
 }
@@ -22,6 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #94f2ab;
+  padding-top: 40px;
 }
 
 #right {
@@ -42,6 +52,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f2ec94;
+  padding-bottom: 60px;
 }
 
 #footer {
